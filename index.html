@@ -1,0 +1,93 @@
+<!--
+I know the code is sloppy.
+I haven't written html in such a long time.
+...
+Alright?
+-->
+<html>
+  <head>
+    <title>ImmTB: Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<p>
+        <strong><p style="text-align: center;font-size: 40px;">ImmTB's Projects</p></strong>
+        <strong><p style="text-align: center;font-size: 20px;font-family: Merriweather;">Github Projects</p></strong>
+        <ul>
+          <div id="rcorners1">
+            <li><a href="https://github.com/ImmTB/verifiedChecker" target="_blank">Roblox Verified Checker v1.0.1</a></li>
+         
+            <button type="button" class="collapsible"><strong>How To Use: (for Windows users)</strong></button>
+            <div class="content">
+              <p>
+                <ol>
+                  <li>Download <a href="https://www.python.org/downloads/" target="_blank">Python</a>.</li>
+                  <li>Open command prompt.</li>
+                  <li>Find the path of the file (example: C:/Users/USERNAME/Downloads/file.py).</li>
+                  <li>Use the command "python" and then the path name.</li>
+                  <li>Type in the playr's UserId that you want to check for verification.</li>
+                  <li>Hit Enter.</li>
+                </ol>
+              </p>
+            </div>
+            <script>
+              var coll = document.getElementsByClassName("collapsible");
+              var i;
+              
+              for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var content = this.nextElementSibling;
+                  if (content.style.display === "block") {
+                    content.style.display = "none";
+                  } else {
+                    content.style.display = "block";
+                  }
+                });
+              }
+              </script>
+          <p style="font-size: 18px;">Checks if a Roblox player is verified, checking if they have the "Verified, Bonafide, Plaidafied" hat.</p>
+          </div>
+            <div id="rcorners1">
+            <li><a href="https://github.com/ImmTB/robloxstockapi" target="_blank">Roblox Stock API</a></li>
+            <button type="button" class="collapsible2"><strong>How To Use: (for Windows users)</strong></button>
+            <div class="content2">
+              <p>
+                <ol>
+                  <li>Download <a href="https://www.python.org/downloads/" target="_blank">Python</a>.</li>
+                  <li>Open command prompt.</li>
+                  <li>Find the path of the file (example: C:/Users/USERNAME/Downloads/file.py).</li>
+                  <li>Use the command "python" and then the path name.</li>
+                  <li>Type in the playr's UserId that you want to check for verification.</li>
+                  <li>Hit Enter.</li>
+                </ol>
+              </p>
+            </div>
+            <script>
+              var coll = document.getElementsByClassName("collapsible2");
+              var i;
+              
+              for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var content = this.nextElementSibling;
+                  if (content.style.display === "block") {
+                    content.style.display = "none";
+                  } else {
+                    content.style.display = "block";
+                  }
+                });
+              }
+              </script>
+          <p>Prints RBLX, market day high, low, and asking price.</p>
+          </div>
+            <div id="rcorners1">
+            <li><a href="https://github.com/ImmTB/robloxAdmins" target="_blank">Roblox Admin List</a></li>
+            <p>A short list of <i>some</i> Roblox Administrators.</p>
+          </div>
+        </ul>
+</p>
+  </body>
+</html>
